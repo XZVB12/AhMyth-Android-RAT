@@ -19,7 +19,12 @@ It consists of two parts :
 #### 2) From binaries
 ###### Prerequisite :
 * Download a binary from https://github.com/AhMyth/AhMyth-Android-RAT/releases
-* Java (to generate apk backdoor)
+* Java 8(to generate apk backdoor)
+
+## Build:
+``` cd AhMyth-Server ```  
+```Linux: electron-packager ./ AhMyth --platform=linux --arch=x64```  
+```Windows: electron-packager ./ AhMyth --platform=win32 --arch=x64 --icon=build/icon.ico```
 
 ## Screenshots
 <p align="center">
